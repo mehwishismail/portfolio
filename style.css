@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    color:#bd8803 ;
+    color:hsl(27, 93%, 55%);
     box-sizing: border-box;
 }
 body{
@@ -29,11 +29,11 @@ ol li {
 }
 
 .nav-bar a {
-    background-color: #2b1201;
+    /* background-color: #2b1201; */
     text-decoration: none;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
-    color: #a57c13;
+    color:hwb(29 19% 2%);
     padding: 8px;
     padding-left: 14px;
     padding-right: 14px;
@@ -54,11 +54,10 @@ border: 1px solid oklab(55.285% 0.01418 0.11049) ;
 
 .nav-bar a:hover {
     
-    border: 1px solid lab(34.98% 8.35 43.49);
-background-color:hwb(26 0% 87%);
+    border: 1px solid orange;
+    background-color:hwb(26 0% 87%);
     border-radius:5px 5px 5px 5px ;
-    
-    transform: scaleY(1.2);
+     transform: scaleY(1.2);
 }
 
 .nav-bar img {
@@ -74,43 +73,44 @@ background-color:hwb(26 0% 87%);
      background-color:rgb(54, 23, 1)  ;
 }
 .main-second{
-    padding-top: 40px;
+    padding-top: 0px;
 }
 .main-second img{
         /* border:1px solid hsl(43, 98%, 17%);
     border-radius:200px 200px 0px 0px ; */
-    padding:15px ;
+    padding:0px ;
     
-    padding-top:30px ;
-    padding-bottom:20px ;
+    padding-top:0px ;
+    padding-bottom:0px ;
     transition: all 0.4s ease-in-out;
 }
 
 .main-second img:hover {
   
-    height: 400px;
-    /* width: 420px; */
-    padding-top:30px ;
+    height: 410px;
+    width: 430px;
+    padding-top:0px ;
      transform: scale(1.1);
+     padding-bottom: 0px;
     
 
 }
 
 .main-first h1 {
-    font-size: 65px;
-    
+    font-size: 60px;
+    color: hsl(27, 93%, 55%);
     /* font-family: French Script MT;
     font-weight: bolder; */
 }
 
 .main-first h2 {
     font-size: 55px;
-    color:rgb(39, 17, 1) ; 
+    color:white ; 
     font-family:Pristina;
     word-spacing:5px ;
     padding-top: 50px;
     padding-bottom: 15px;
-    text-shadow:0px 3px 3px goldenrod ;
+    text-shadow:0px 4px 4px hsl(27, 86%, 57%);;
 }
 
 .main-first {
@@ -124,8 +124,8 @@ background-color:hwb(26 0% 87%);
     padding-top: 20px;
     padding-bottom: 20px;
 }
-button {
-    color: hsl(43, 96%, 28%);
+   button {
+    color:hsl(27, 93%, 55%);
     background-color: white;
     font-weight: bold;
     border-radius:30px ;
@@ -161,9 +161,10 @@ button:hover{
 }
 
 .Services {
+    
     text-align: center;
      justify-content: center;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 0px;
     padding-bottom: 30px;
     background-color:rgb(54, 23, 1) ;
@@ -172,9 +173,10 @@ button:hover{
 .Services h2 {
     font-size: 42px;
     font-family: Book Antiqua;
-    color:lch(57.14% 61.9 81.23) 
+    color:hsl(27, 93%, 55%); 
 }
 .Services p{
+    padding:10px ;
     color:white ;
     font-size:17px ;
 }
@@ -183,7 +185,7 @@ button:hover{
     display: flex;
     justify-content: center;
     gap: 35px;
-    padding-top: 40px;
+    padding-top: 20px;
     align-items: center;
     text-align: center;
     padding-bottom: 20px;
@@ -193,7 +195,7 @@ button:hover{
 
 .card h3 {
     font-size: 29px;
-    color: #ff7300;
+    color:hsl(27, 93%, 55%);
     
 }
 
@@ -203,35 +205,36 @@ button:hover{
 }
 
 .one {
-    background-color:#301401 ;
-    height: 270px;
-    width: 275px;
+    background-color:#301401   ;
+    height: 290px;
+    width: 285px;
     border: 1px solid #301401  ;
     padding: 15px;
+    
     border-radius: 37px 0px 37px 0px;
    transition: all 0.4s ease;
     
 }
 .one:hover{
-    height:275px ;
+    height:297px ;
     width: 287px;
-    box-shadow: 0px 0px 10px #a57c13;
+    box-shadow: 0px 0px 10px  hsl(27, 93%, 55%);
 
     transform:scale3d(2.0);
     
 }
 .two:hover{
-    height:275px ;
+    height:297px ;
     width: 287px;
-    box-shadow: 0px 0px 10px #a57c13;
+    box-shadow: 0px 0px 10px hsl(27, 93%, 55%);
      transform: scale3d(2.0);
     
     
 }
 .three:hover{
-    height:275px ;
+    height:297px ;
     width: 287px;
-    box-shadow: 0px 0px 10px #a57c13;
+    box-shadow: 0px 0px 10px hsl(27, 93%, 55%);
      transform: scale3d(2.0);
      
     
@@ -240,7 +243,7 @@ button:hover{
 
 .two {
     background-color: #301401 ;
-    height: 270px;
+    height: 290px;
     width: 285px;
     border: 1px solid #301401 ;
     padding: 15px;
@@ -250,7 +253,7 @@ button:hover{
 
 .three {
     background-color:#301401 ;
-    height: 270px;
+    height: 290px;
     width: 285px;
     border: 1px solid #301401 ;
     border-radius: 37px 0px 37px 0px;
@@ -308,7 +311,7 @@ padding: 23px ;
 }
 .exp a:hover{
     background-color: hsl(28, 100%, 8%);
-    border:1px solid hwb(44 0% 71%) ;
+    border:1px solid hsl(27, 93%, 55%) ;
      font-size:25 ;
     
      transform: scale3d(1.2);
@@ -319,7 +322,7 @@ padding: 23px ;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:rgb(54, 23, 1) ;
+    background-color:rgb(54, 23, 1);
 
 }
 .project h2{
@@ -357,7 +360,7 @@ padding: 23px ;
     border-radius:80px;
     padding:25px ;
     background-color:#301401 ;
-    box-shadow: 0px 0px 10px #a57c13; 
+    box-shadow: 0px 0px 10px hsl(27, 93%, 55%); 
     transform: scale3d(1.2);
    
 }
@@ -372,12 +375,13 @@ padding: 23px ;
 
 .Design p {
     font-size: 18px;
-    
+    padding: 10px;
     color: white;
+    padding-bottom: 25px;
 }
 
 .Design h2 {
-    color: lch(57.14% 61.9 81.23); 
+    color: hsl(27, 93%, 55%); 
     font-size: 42px;
     
 } 
@@ -388,7 +392,8 @@ padding: 23px ;
     align-items: center;
     
     background-color:rgb(54, 23, 1) ;
-    padding: 20px;
+    padding-bottom: 10px;
+    
     padding-left: 130px;
     gap: 30px; 
 }
@@ -397,11 +402,28 @@ padding: 23px ;
         align-items: center;
     justify-content: left;
     background-color:rgb(54, 23, 1) ;
-    padding: 20px;
+    padding-bottom:60px ;
     padding-left: 130px;
     gap: 30px;
-    border-bottom: 1px solid #7a5904;
+    border-bottom: 1px solid hsl(27, 93%, 55%);
 
+}
+.work-two .link{
+    border:1px solid hwb(24 0% 84%);
+    padding:10px ;
+    background-color:hwb(24 0% 84%);
+}
+.link a{
+    font-size: 18px;
+    text-decoration:none ;
+    color:hsl(27, 93%, 55%) ;
+    font-weight: bold;
+    
+}
+.travel{
+    border: 1px solid hwb(24 0% 84%) ;
+    padding: 10px;
+    background-color:hwb(24 0% 84%) ;
 }
 
 .girl{
@@ -415,35 +437,36 @@ padding: 23px ;
     
     position: absolute;
     right:20px ;
-    bottom: -165px;
+    bottom: -250px;
 }
 
-.about h1 {
+/* .about h1 {
     font-size: 35px;
     padding-left: 30px;
-    padding-bottom: 40px;
-}
+    padding-bottom: 20px;} */
 
 .five {
     font-size: 21px;
-    color: lch(78.1% 81.4 80.45);
+    color: white;
 }
 
 .bold {
     font-size: 24px;
-    color: oklab(59.025000000000006% 0.01373 0.11343);;
+    color: hsla(0, 0%, 100%, 0.61);
     padding-left: 25px;
 }
 
-.about {
-color:#a57c13;
-   
+/* .about {
+    color: hsl(27, 93%, 55%);
+    padding-bottom: 0px;} */
 
-}
+
+
 .about button{
     background-color: lch(66.82% 78.59 59.19);
     padding-left: 20px;
     padding-right: 20px;
+    
     transition: all 0.4s ease-in-out;
 }
 .about button:hover{
@@ -464,16 +487,16 @@ color:#a57c13;
 }
 
 .about {
-    padding-top: 50px;
+    padding-top: 40px;
     height: 400px;
     width: 500px;
 }
 
 .about h1 {
-    
+    padding-bottom:15px ;
     font-size: 50px;
-    color:#1b0c00 ; 
-    text-shadow: 3px 3px 3px #a57c13;
+    color:hsl(27, 93%, 55%) ; 
+    text-shadow: 3px 3px 3px hwb(27 0% 81%);
     
 }
 
@@ -497,7 +520,7 @@ color:#a57c13;
     }
   } */
 .image:hover{
-    box-shadow:0px 0px 10px hsl(43, 80%, 31%);
+    box-shadow:0px 0px 10px hsl(27, 93%, 55%);
     padding-left: 65px;
     border: 2px solid  #2e1401;
     padding-right: 65px;
@@ -507,15 +530,96 @@ color:#a57c13;
     
     
 }
+.form{
+       height: 580px;
+       width: 540px; 
+       justify-content: center;
+      text-align: center;
+      align-items:center;
+      background-color:#301401 ;
+      padding:50px ;
+      gap:50px ;
+      border-radius:50px ;
 
-.contact {
-    background-color: #2e1401;
-    color: lch(46.41% 47.21 83.52);
-    border: 1px solid hsl(43, 97%, 12%);
-    
+ 
+
+}
+.text{
+    padding: 25px;
+}
+.color{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+       padding:25px ;
+       background-color:rgb(54, 23, 1);
+
 }
 
+.send{
+     display: inline-block;
+     width: 100%;
+    padding: 10px;
+    background-color:hsl(120, 96%, 27%) ;
+    color: white;
+     border: 1px solid  hsl(120, 96%, 27%)  ;
+     border-radius: 25px;
+     font-size: 16px;
+     cursor: pointer;
+     text-decoration: none;
+      transition: all 0.3s ease-in-out;
+   
+}
+
+.send:hover{
+    background-color: hsl(120, 96%, 22%) ;
+    color: white;
+    border-color:hsl(120, 96%, 22%)  ;
+    font-size:17 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     transform: scale(1.03);
+}
+.form h1{
+    font-size:50px ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom:8px ;
+}
+.form p{
+    font-size: 19px;
+    color:white ;
+}
+.form input[type=text]{
+    height: 40px;
+    width:400px ;
+    font-size: 16px;
+    padding:20px ;
+    align-items: center;
+    border:1px solid black ;
+    border-radius: 10px;
+    
+
+}
+.form .name{
+padding-bottom:  20px;
+}
+.form .message input[type=text]{
+    padding-bottom:98px ;
+    height:160px ;
+    font-size:16px ;
+    padding-top: 0px !important;
+    vertical-align: top;
+}
+.contact {
+    background-color: #2e1401;
+    padding: 23px;
+    border: 1px solid hsl(27, 93%, 55%);
+    color:white ;
+}
+
+
 .contact h1 {
+    
     font-size: 50px;
     align-items: center;
     text-align: center;
@@ -548,16 +652,17 @@ color:#a57c13;
 .contact button:hover{
     font-size: 20px;
     padding: 9px ;
-    background-color: azure;
+    color: azure;
+    background-color:hsl(27, 93%, 55%);
 }
 .pink h4{
-    color: white;
+    color:hsl(27, 93%, 55%);
 }
 .green h4{
-    color: white;
+    color: hsl(27, 93%, 55%);
 }
 .yellow h4{
-    color: white;
+    color: hsl(27, 93%, 55%);
 }
 
 .last {
@@ -568,7 +673,8 @@ color:#a57c13;
 }
 
 hr {
-    border: 1px solid lab(45.93% 6.61 50.2);
+    border: 1px solid ;
+    
     
 }
 .footer{
@@ -586,11 +692,15 @@ hr {
 }
  .last .green{ 
     text-align:right ;
+    color: white;
     align-items:right ;
 
 }
-.last .yellow{
 
+.last h2{
+    color:white ;
+}
+.last .yellow{
     align-items:center ;
     text-align: center;
     justify-content: center;
